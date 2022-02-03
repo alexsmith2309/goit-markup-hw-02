@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="./index.html">Web<span>Studio</span> </a>
-        <nav>
-        <div class="container">
-            <ul>
-                <li><a href="./index.html" lang="en" >Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="page-nav">
+                <a href="./index.html" class="logo">Web<span>Studio</span> </a>
+                    <ul class="nav-links">
+                        <li class="nav-links-item"><a class="nav-links-link" href="./index.html" lang="en" >Студия</a></li>
+                        <li class="nav-links-item"><a class="nav-links-link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="nav-links-item"><a class="nav-links-link" href="#">Контакты</a></li>
+                    </ul>
+            </nav>
+            <ul class="contacts">
+               <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
-    </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
     </header>
     <main>
-        <section>
+        <section class="section">
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
         </section>
-        <section>
+        <section class="section">
             <h2>преимущества</h2>
             <div class="container">
                 <ul>
@@ -53,7 +60,7 @@
             </div>
             
         </section>
-        <section>
+        <section class="section">
             <h2>Чем мы занимаемся</h2>
             <div class="container">
                 <ul>
@@ -63,7 +70,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Наша команда</h2>
             <div class="container">
                 <ul>
