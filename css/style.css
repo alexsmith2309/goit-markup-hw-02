@@ -170,8 +170,16 @@ h1 {
 }
 /* button */
 .button {
-color: var(--primary-color);
-background-color: var(--nav-button-color);
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    background-color: var(--nav-button-color);
+    width: 128px;
+    height: 38px;
 }
 .button:hover,
 .button:focus {
@@ -189,4 +197,18 @@ background-color: var(--nav-button-color);
 .primary:hover,
 .primary:focus {
     background-color: #188CE8;
+}
+.cards {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+.cards-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)
 }
